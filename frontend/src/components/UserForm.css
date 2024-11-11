@@ -1,0 +1,79 @@
+.inp-form {
+    display: flex;
+    background-color: #131313;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+    border-radius: 50px 0 0 50px;
+}
+
+.inp-form h1 {
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    width: 100%;
+    margin: 2%;
+}
+
+input {
+    color: white;
+    background-color: #2F2F2F;
+    border: none;
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#add-user, #cancel-user {
+    background-color: #EA5332;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+::placeholder {
+    color: white;
+    opacity: .8;
+}
+
+::-ms-input-placeholder {
+    color: white;
+    opacity: .8;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .inp-form {
+        width: 90%;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 0 50px 0 50px;
+    }
+
+    .inputs {
+        width: 75%;
+    }
+}
